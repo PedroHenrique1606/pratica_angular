@@ -1,0 +1,21 @@
+<div class="class"></div>
+<div [ngStyle]="{'display': 'flex;', 'justify-content': 'center'}">
+    <h4>Lista de Funcionários</h4>
+    <ul>
+        <li>{{ employee.personOne.name }}</li>
+        <ul>
+            <li>Cargo: {{ employee.personOne.position }}</li>
+            <li>Idade: {{ employee.personOne.age }}</li>
+            <li>Salário: R${{ employee.personOne.salary }}</li>
+        </ul>
+    </ul>
+    <ul>
+        <li>{{ employee.personTwo.name }}</li>
+        <ul>
+            <li>Cargo: {{ employee.personTwo.position }}</li>
+            <li>Idade: {{ employee.personTwo.age }}</li>
+            <li>Salário: R${{ employee.personTwo.salary }}</li>
+        </ul>
+    </ul>
+</div>
+<div class="class"></div>
