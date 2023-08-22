@@ -21,6 +21,11 @@ export class AppComponent {
     taskTwo: "B&Q - tela de login reformulada",
   };
 
+  userStatus = {
+    status: "Active",
+    projects: "B&Q - Company energy",
+  }
+
   /*FUNCIONÁRIOS */
   employee= {
     personOne: {

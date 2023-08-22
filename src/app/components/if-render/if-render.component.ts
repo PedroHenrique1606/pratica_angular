@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-if-render',
@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 export class IfRenderComponent {
   canShow: boolean = true
   name:string = 'pedro'
+
+  @Input() userStatus!: {status:string, projects:string};
 }

@@ -1,0 +1,10 @@
+<div class="class">
+    <h2 *ngIf="canShow === true">Hi, if this render show, are ok.</h2>
+    <h3 *ngIf="name === 'Rogério Scelto' || name === 'Rodrigo Gaspar' ">
+        Hello, {{ name }}. Welcome from the <span>Employees System</span>.
+    </h3>
+    <h4 *ngIf="name === 'Rogério Scelto' else nameNotFound"></h4>
+    <ng-template #nameNotFound>
+        <h4>O nome do usuário não foi encontrada, faça login novamente e verifique sua matrícula e senha.</h4>
+    </ng-template>
+</div>
