@@ -11,6 +11,12 @@ import { RenderComponent } from './components/render/render.component';
 import { LoginComponent } from './components/login/login.component';
 import { EventsComponent } from './components/events/events.component';
 import { EventNetworkComponent } from './components/event-network/event-network.component';
+import { EmitterComponent } from './components/emitter/emitter.component';
+import { ChangeNumberComponent } from './components/change-number/change-number.component';
+import { UserDataComponent } from './components/user-data/user-data.component';
+import { EmitterUserDataComponent } from './components/emitter-user-data/emitter-user-data.component';
+import { TesterComponent } from './components/tester/tester.component';
+import { EmmiterTesterComponent } from './components/emmiter-tester/emmiter-tester.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,13 @@ import { EventNetworkComponent } from './components/event-network/event-network.
     RenderComponent,
     LoginComponent,
     EventsComponent,
-    EventNetworkComponent
+    EventNetworkComponent,
+    EmitterComponent,
+    ChangeNumberComponent,
+    UserDataComponent,
+    EmitterUserDataComponent,
+    TesterComponent,
+    EmmiterTesterComponent
   ],
   imports: [
     BrowserModule,
